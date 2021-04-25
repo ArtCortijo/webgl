@@ -4,13 +4,25 @@
 	<meta charset="UTF-8">
 	<title>Merging WebGL and HTML worlds</title>
 	<style>
-		*{margin:0;padding:0} 
-		canvas{display: block}
-		#container{width: 100vw;height: 100vh}
+		* {
+            margin:0;
+            padding:0;
+            overflow: hidden;
+        }
+
+		canvas {
+            display: block;
+        }
+		
+        #container {
+            width: 100vw;
+            height: 100vh; 
+        }
     </style>
 </head>
 <body>
+    <div></div>
 	<div id="container"></div>
-	<script src="app.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
