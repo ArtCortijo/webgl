@@ -1,1 +1,0 @@
-module.exports="#define GLSLIFY 1\nvoid main()\t{\n\tgl_FragColor = vec4(1.,0.1.,1.);\n}";
